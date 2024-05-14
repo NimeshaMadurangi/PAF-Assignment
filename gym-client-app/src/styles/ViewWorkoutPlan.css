@@ -1,0 +1,48 @@
+.view-workout-plan-container {
+  background-image: url('../Images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.workout-plan-table {
+  margin: 20px;
+  background-color: #fff;
+}
+
+.workout-plan-table h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #031d60;
+}
+
+.workout-plan-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.workout-plan-table th, .workout-plan-table td {
+  padding: 8px;
+  border: 2px solid #ddd;
+  text-align: left;
+}
+
+.workout-plan-table th {
+  background-color: #042950;
+  color: #fff;
+}
+
+.workout-plan-table tbody tr:nth-child(even) {
+  background-color: #b9d9f9;
+}
+
+.workout-plan-table tbody tr:hover {
+  background-color: #8ab6f7;
+}
+
+.search-bar {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+

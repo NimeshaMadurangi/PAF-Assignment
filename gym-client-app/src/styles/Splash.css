@@ -1,0 +1,23 @@
+.splash-container {
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
+  align-items: center; /* Center contents vertically */
+  height: 100vh; /* Make sure the container takes the full viewport height */
+  background-image: url('../Images/fitnesswoman-practicing-yoga-rain_7502-7076.jpg');
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+}
+
+.content {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.content h1 {
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.content button {
+  margin: 0 10px; /* Add some space between buttons */
+}

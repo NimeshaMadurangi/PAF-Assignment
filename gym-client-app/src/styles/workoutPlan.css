@@ -1,0 +1,47 @@
+  .workout-plan {
+    margin: 20px;
+  }
+  
+  .workout-plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .workout-plan button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .workout-plan button:hover {
+    background-color: #0056b3;
+  }
+  
+  .workout-plan table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .workout-plan th, .workout-plan td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .workout-plan th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .workout-plan tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .workout-plan tr:hover {
+    background-color: #f0f0f0;
+  }
+  

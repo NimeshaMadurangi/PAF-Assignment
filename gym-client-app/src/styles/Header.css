@@ -1,0 +1,55 @@
+.bg-custom {
+  background-color: #011d3b;
+}
+
+.header-container {
+  padding-bottom: 10px; /* Adjust the bottom padding as needed */
+}
+
+.navbar {
+  min-height: 50px; /* Adjust the height of the navbar */
+}
+
+.navbar-brand img {
+  max-height: 40px; /* Adjust the height of the logo image */
+}
+
+.navbar-nav .nav-link {
+  padding-top: 10px; /* Adjust the top padding of the nav links */
+  padding-bottom: 10px; /* Adjust the bottom padding of the nav links */
+  color: white;
+}
+
+/* Header.css */
+.input-group {
+  width: 585px; /* Adjust the width to your desired size */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 20px; /* Optional: Add border radius for a rounded search bar */
+  padding: 8px 20px; /* Optional: Adjust padding for better aesthetics */
+  font-size: 14px; /* Optional: Adjust font size */
+}
+
+.navbar-nav.ml-auto {
+  display: flex;
+  align-items: center; /* Align icons vertically */
+}
+
+.navbar-nav.ml-auto .nav-item {
+  margin-left: 10px; /* Adjust spacing between icons */
+}
+
+.navbar-nav.ml-auto .nav-link {
+  color: #f3f3f3; /* Change icon color */
+  font-size: 18px; /* Adjust icon size */
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #fff; /* Change text color of active link */
+  background-color: #02192f; /* Change background color of active link */
+  border-radius: 1px; /* Add rounded corners to active link */
+}

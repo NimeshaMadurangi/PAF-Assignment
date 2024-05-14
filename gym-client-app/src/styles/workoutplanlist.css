@@ -1,0 +1,78 @@
+.workout-plan-list {
+  background-color: #FFFFFF;
+  max-height: 700px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workout-plan-item {
+  background-color: aliceblue;
+  margin-bottom: 20px;
+  border: 2px solid #6fadef;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  width: 50%;
+}
+
+.create-plan-button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #011d3b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.like-comment-icons {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #011d3b;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.comment-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comment-button {
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #011d3b;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Comment Popup */
+.comment-popup {
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 999;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.comment-container {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 5px 0;
+} 
