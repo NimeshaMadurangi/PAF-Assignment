@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUser, faBell, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Header.css';
@@ -18,7 +18,7 @@ function Header() {
                     <div className="navbar-collapse">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <Link to="/" className="nav-link">Home</Link> {/* Link to the homepage */}
+                                <Link to="/" className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Workout Status</a>
